@@ -5,10 +5,15 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.cross-chain]
+path = 'contracts/cross-chain.clar'
+clarity_version = 3
+epoch = 'latest'
+
 [contracts.liquidity-router]
 path = 'contracts/liquidity-router.clar'
 clarity_version = 3
-epoch = 'latest'
+epoch = '3.1'
 [repl.analysis]
 passes = ['check_checker']
 
